@@ -1,53 +1,43 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-<meta charset="UTF-8">
-<title>Reddit 1v1 Ranking</title>
-<style>
-body {
-    font-family: Arial;
-    background: #111;
-    color: white;
-    text-align: center;
-}
+  <meta charset="UTF-8" />
+  <title>Reddit Video Player</title>
+  <style>
+    body {
+      margin: 0;
+      background: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+      color: white;
+      font-family: Arial;
+    }
 
-.container {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 30px;
-}
+    video, img {
+      max-width: 90vw;
+      max-height: 80vh;
+      border-radius: 10px;
+    }
 
-.card {
-    width: 45%;
-    background: #222;
-    padding: 10px;
-    border-radius: 10px;
-    cursor: pointer;
-}
-
-.card:hover { background: #333; }
-
-video, img {
-    width: 100%;
-    border-radius: 10px;
-}
-</style>
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+  </style>
 </head>
 
 <body>
 
-<h1>🔥 Reddit 1v1 Ranking</h1>
+  <h3>Reddit Player</h3>
 
-<div id="game">
-    <div class="container">
-        <div class="card" id="left"></div>
-        <div class="card" id="right"></div>
-    </div>
-</div>
+  <video id="player" controls autoplay></video>
 
-<div id="results"></div>
+  <button onclick="nextVideo()">Next</button>
 
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
