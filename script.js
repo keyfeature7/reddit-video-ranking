@@ -1,4 +1,8 @@
-https://www.reddit.com/user/Unlikely-Ferret-8126/comments/
+// 🔥 HIER DEINE REDDIT LINKS EINTRAGEN
+let videos = [
+    "https://www.w3schools.com/html/mov_bbb.mp4",
+    "https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif",
+    https://www.reddit.com/user/Unlikely-Ferret-8126/comments/
 https://www.reddit.com/r/cumsluts/comments/1oectaz/vintage_cumslut_y2k/
 https://www.reddit.com/r/cumsluts/comments/1pezts4/the_heavens_opened/
 https://www.reddit.com/r/InfluencerNSFW_global/comments/1uiwcwu/ariel/
@@ -313,9 +317,6 @@ https://www.reddit.com/r/anal/comments/xc0ybi/lexi_belle_gets_sprayed_in_the_fac
 https://www.reddit.com/r/celebnsfw/comments/11c4awt/michelle_williams/
 https://www.reddit.com/r/CelebsWithPetiteTits/comments/13vooev/alexa_demie_euphoria_s01e01_4k/
 https://www.reddit.com/r/PieceOfCakeGame/comments/1qkjb3t?entry_point=games_drawer_featured_game
-let videos = [
-    "https://www.w3schools.com/html/mov_bbb.mp4",
-    "https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif",
 ];
 
 let current = [];
